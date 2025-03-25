@@ -1,0 +1,23 @@
+start the local blockchain:
+ganache --host 0.0.0.0 --port 8545
+
+
+set the rpc url and private key in the .env file
+
+run 
+truffle migrate
+
+to send the contract to the blockchain
+
+change the contract address in all the following files:
+	.env
+
+start the middle server
+
+node server.js
+
+//curl http://localhost:3000/getLatest
+
+
+PORT=4000 npm start
+
