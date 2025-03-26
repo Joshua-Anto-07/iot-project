@@ -17,6 +17,8 @@ start the middle server
 node server.js
 
 //curl http://localhost:3000/getLatest
+curl http://localhost:3000/getReadings/0xYourSensorAddress
+
 
 
 PORT=4000 npm start
